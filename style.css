@@ -1,0 +1,124 @@
+
+body{
+    background:#a2fbf5;
+    background: linear-gradient(to left, #a2fbf5, #97b9f8, #8080e6);
+    color: white;
+    text-transform:uppercase;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size:30px;
+    line-height: 50px;
+    top:10px;
+    right:50px;
+    text-shadow: 2px 2px #97b9f8;
+}
+
+#clock{
+    font-size:40px;
+    display:block;
+    padding:5px 0px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+#timeImage{
+    width:100%;
+}
+
+#timeEvent{
+    font: 2em/1em 'Noto Sans', sans-serif;
+  text-shadow: 1px 1px #000;
+  margin: -40px 0 50px 0;
+  display:flex;
+    align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#elems{
+    padding:10px 0px;
+}
+
+#my_input{
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 50%;
+    padding-bottom: 11px;
+    color:rgb(145,145,145);
+}
+
+
+#my_input,#my_button{
+    
+    border: none;
+    background: white;
+    display:inline;
+
+}
+#my_button{
+    height:70px;
+    color:#65d9c7;
+    background:white;
+    cursor:pointer;
+    transition: all 0.4s ease;
+    width:4%
+}
+#my_button:hover{
+    background:#65d9c7;
+    color: white;
+}
+#div_out{
+    justify-content: center;
+    align-items:center
+}
+#list{
+    min-width:40%;
+    list-style:none;
+}
+#list_elem{
+    margin:1rem;
+    width: 50%;
+    background: white;
+    color:#456762;
+    font-size:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+#li{
+    flex:2;
+    padding:1rem 2rem;
+}
+#delete_button,#complete_button,#imp_button{
+    background:#63c7b8;
+    color:white;
+    border:none;
+    padding:1rem;
+    font-size:1rem;
+    cursor:pointer;
+    height:4.7rem
+}
+#complete_button{
+    background:rgb(123,133,165);
+}
+
+#imp_button{
+    background:rgb(147,67,146);
+}
+
+.fa-trash-alt,.fa-check-square{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity:0.5;
+}
+.remove{
+    transform:translate(8rem);
+    opacity:0;
+}

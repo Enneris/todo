@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+        <link rel='stylesheet' type='text/css' href="style.css">
+        <title>My Project</title>
+    </head>
+    <body>
+        <h1> Список задач </h1>
+        <span id='clock'>1</span>
+        <img id='timeImage' src='images/morning.jpg'>
+        <p id="timeEvent">Доброе Утро</p>
+        <p id='TasksLeft'>Задач осталось: </p>
+        <div id='elems'>
+            <input type='text' id='my_input' placeholder="Добавить задачу">
+            <button id='my_button'>
+                <i class="fas fa-plus"></i>
+            </button>
+ 
+            <div id='div_out'>
+                <ul id='list'>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li>Чтобы добавить задачу нажмите на "+"</li>
+                <li>Чтобы пометить задачу завершенной нажмите на галочку</li>
+                <li>Чтобы удалить задачу нажмите на корзину</li>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
